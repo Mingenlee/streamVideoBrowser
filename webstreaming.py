@@ -2,8 +2,8 @@
 # python webstreaming.py --ip 0.0.0.0 --port 8000
 
 # import the necessary packages
-from pyimagesearch.motion_detection import SingleMotionDetector
 from imutils.video import VideoStream
+from pyimagesearch.motion_detection import SingleMotionDetector
 from flask import Response
 from flask import Flask
 from flask import render_template
